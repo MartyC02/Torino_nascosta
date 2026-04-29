@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  
+  --color-bg-canvas: #fcfbf9;
+  --color-sidebar-bg: #1a1a1a;
+  --color-accent-gold: #c5a059;
+  --color-text-main: #2c2c2c;
+  --color-text-light: #666;
+  --color-border-color: #e0ddd8;
+}
+
+@layer base {
+  html, body, #root {
+    @apply w-full min-h-full overflow-x-hidden relative;
+  }
+
+  body {
+    @apply bg-bg-canvas text-text-main font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Custom scrollbar for sidebar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.2);
+  border-radius: 10px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.4);
+}
+
+/* Map Marker Animations */
+@keyframes pin-glow {
+  0% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(197, 160, 89, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0); }
+}
+
+.highlighted-pin .marker-container {
+  animation: pin-glow 2s infinite;
+  z-index: 1000 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0;
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+
