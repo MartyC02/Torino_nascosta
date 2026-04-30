@@ -314,7 +314,7 @@ export const ARTWORKS: Artwork[] = [
     image_alt: "Palazzo Madama in Piazza Castello a Torino",
 
     before_image_url: "https://www.museotorino.it/images/71/2a/a0/cd/712aa0cd3d594827b27191b6151e48f4-1.jpg",
-    after_image_url: "https://traveldigg.com/wp-content/uploads/2016/09/Palazzo-Madama-Front-Photo.jpg",
+    after_image_url: "/Palazzo-Madama-Front-Photo.webp",
     before_image_alt: "Immagine storica di palazzo Madama",
     after_image_alt: "Vista attuale di palazzo Madama",
 
