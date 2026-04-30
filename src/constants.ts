@@ -309,8 +309,8 @@ export const ARTWORKS: Artwork[] = [
     historical_context: "Palazzo Madama is one of the most stratified buildings in Turin. Its history starts from the Roman gate incorporated into the structure, goes through the medieval phase of the castle and arrives at the Baroque and court transformation, with the large facade designed by Filippo Juvarra. Today it houses the Civic Museum of Ancient Art.",
     material_details: "The palace shows materials, forms, and languages belonging to different eras: Roman remains, medieval structures, towers, representation rooms, and Baroque facade. Its architectural material is a palimpsest: it does not erase previous phases, but makes them legible in the same building body.",
     reuse_context: "Palazzo Madama is a synthesis of the city itself. From defensive structure to residence, from place of power to museum, it demonstrates how urban heritage can change function without losing historical depth. Its current identity arises precisely from the overlap of uses and meanings.",
-    image_url: "https://traveldigg.com/wp-content/uploads/2016/09/Palazzo-Madama-Front-Photo.jpg",
-    thumbnail_url: "https://traveldigg.com/wp-content/uploads/2016/09/Palazzo-Madama-Front-Photo.jpg",
+    image_url: "/Palazzo-Madama-Front-Photo.webp",
+    thumbnail_url: "/Palazzo-Madama-Front-Photo.webp",
     image_alt: "Palazzo Madama in Piazza Castello a Torino",
 
     before_image_url: "https://www.museotorino.it/images/71/2a/a0/cd/712aa0cd3d594827b27191b6151e48f4-1.jpg",
