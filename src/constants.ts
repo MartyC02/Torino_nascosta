@@ -315,8 +315,8 @@ export const ARTWORKS: Artwork[] = [
 
     before_image_url: "https://www.museotorino.it/images/71/2a/a0/cd/712aa0cd3d594827b27191b6151e48f4-1.jpg",
     after_image_url: "https://traveldigg.com/wp-content/uploads/2016/09/Palazzo-Madama-Front-Photo.jpg",
-    before_image_alt: "Immagine storica della Mole Antonelliana",
-    after_image_alt: "Vista attuale della Mole Antonelliana",
+    before_image_alt: "Immagine storica di palazzo Madama",
+    after_image_alt: "Vista attuale di palazzo Madama",
 
     location: { address: "Piazza Castello, Torino", lat: 45.0708, lng: 7.6855 }
   },
