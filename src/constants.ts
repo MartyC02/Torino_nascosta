@@ -170,10 +170,10 @@ export const ARTWORKS: Artwork[] = [
     image_url: "https://www.tedxtorino.com/2017/wp-content/uploads/2017/09/Porta_Palatina_-_panoramio.jpg",
     thumbnail_url: "https://www.tedxtorino.com/2017/wp-content/uploads/2017/09/Porta_Palatina_-_panoramio.jpg",
     image_alt: "Porta palatina",
-    before_image_url: "https://mole24.it/wp-content/uploads/2020/11/1000_Ricostruzione-1-1024x1016.jpg",
+    before_image_url: "https://www.somewhere.it/public/foto/Porte-palatine-credits-Museo-Torino.jpg",
     after_image_url: "https://www.tedxtorino.com/2017/wp-content/uploads/2017/09/Porta_Palatina_-_panoramio.jpg",
     before_image_alt: "Immagine storica della Mole Antonelliana",
-    after_image_alt: "Vista attuale della Mole Antonelliana",
+    after_image_alt: "Vista porta palatina ora",
     location: { address: "Piazza Cesare Augusto, Torino", lat: 45.0750, lng: 7.6847 }
   },
   {
@@ -397,7 +397,7 @@ export const ARTWORKS: Artwork[] = [
     reuse_context: "Palazzo Madama is a synthesis of the city itself. From defensive structure to residence, from place of power to museum, it demonstrates how urban heritage can change function without losing historical depth. Its current identity arises precisely from the overlap of uses and meanings.",
     reuse_context_it: "Palazzo Madama è una sintesi della città stessa. Da struttura difensiva a residenza, da luogo di potere a museo, dimostra come il patrimonio urbano possa cambiare funzione senza perdere spessore storico. La sua identità attuale nasce proprio dalla sovrapposizione di usi e significati.",
     image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Palazzo_Madama%2C_Torino_crop.jpg/960px-Palazzo_Madama%2C_Torino_crop.jpg",
-    thumbnail_url: "https://traveldigg.com/wp-content/uploads/2016/09/Palazzo-Madama-Front-Photo.jpg",
+    thumbnail_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Palazzo_Madama%2C_Torino_crop.jpg/960px-Palazzo_Madama%2C_Torino_crop.jpg",
     image_alt: "Palazzo Madama in Piazza Castello a Torino",
     before_image_url: "https://www.museotorino.it/images/71/2a/a0/cd/712aa0cd3d594827b27191b6151e48f4-1.jpg",
     after_image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Palazzo_Madama%2C_Torino_crop.jpg/960px-Palazzo_Madama%2C_Torino_crop.jpg",

@@ -865,7 +865,7 @@ export function CommunityBoard({
             </div>
 
             {/* Posts Grid List */}
-            <div className="flex-grow overflow-auto p-6 md:p-8">
+            <div className="flex-grow overflow-auto p-2 ">
               {loading ? (
                 <div className="flex flex-col justify-center items-center py-24 gap-4">
                   <Loader2 className="w-10 h-10 animate-spin text-accent-gold" />
